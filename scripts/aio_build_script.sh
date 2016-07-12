@@ -123,6 +123,8 @@ rackspace_cloud_tenant_id: ${rackspace_cloud_tenant_id}
 rackspace_cloud_username: ${rackspace_cloud_username}
 rackspace_cloud_password: ${rackspace_cloud_password}
 rackspace_cloud_api_key: ${rackspace_cloud_api_key}
+horizon_extensions_git_repo: ${RPC_REPO}
+horizon_extensions_git_install_branch: ${ghprbTargetBranch}
 EOVARS
 set -x
 
